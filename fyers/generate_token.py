@@ -12,7 +12,6 @@ session = fyersModel.SessionModel(
     response_type="code",
     grant_type="authorization_code"
 )
-
 # Generate login URL
 response = session.generate_authcode()
 
